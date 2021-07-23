@@ -30,7 +30,7 @@ while(check_confirm) {
     check_confirm = confirm('Apakah anda mau mengulang?');
     count++;
 }
-
+alert(`Perulangan sudah dilakukan sebanyak ${count}`);
 console.log('Perulangan sudah dilakukan sebanyak ' + count);
 
 
